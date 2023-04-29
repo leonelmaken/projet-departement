@@ -7,12 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="projet-departement" />
+        <module name="PjDepartement" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="projet-departement" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PjDepartement" options="-parameters" />
       <module name="projet-departement" options="-parameters" />
     </option>
   </component>
